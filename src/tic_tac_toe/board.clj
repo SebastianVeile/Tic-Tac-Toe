@@ -55,4 +55,6 @@
                 (do (println "\nPlease select a valid square")
                     (recur board turn)))))))
 
-(run-game start-board)
+(comment
+  (run-game start-board)
+  )
